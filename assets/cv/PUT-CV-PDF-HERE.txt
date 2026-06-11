@@ -1,2 +1,0 @@
-Replace this file with your CV as: akhil-s-pillai-cv.pdf
-(or change the link in cv.md to match your filename).
