@@ -1,0 +1,18 @@
+---
+title: Blog
+eyebrow: Blog
+subtitle: Notes from the lab — numerics, HPC, and the occasional detour.
+permalink: /blog/
+---
+
+{% if site.posts.size > 0 %}
+{% for post in site.posts %}
+<article class="post-item">
+  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  {% if post.excerpt %}<p class="excerpt">{{ post.excerpt | strip_html | truncate: 190 }}</p>{% endif %}
+</article>
+{% endfor %}
+{% else %}
+<p class="empty-state">No posts yet — the first one is being written.</p>
+{% endif %}

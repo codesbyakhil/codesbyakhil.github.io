@@ -1,0 +1,64 @@
+---
+layout: default
+title: Home
+---
+<section class="hero">
+  <p class="eyebrow">DNS &middot; Multiphase flows &middot; HPC &amp; GPU computing</p>
+  <h1>Akhil S. Pillai</h1>
+  <p class="affiliation">Project Associate, Department of Aerospace Engineering, Indian Institute of Technology Madras &mdash; working with Prof.&nbsp;A.&nbsp;Sameen.</p>
+
+  <!-- To add a photo, drop e.g. assets/img/akhil.jpg into the repo and uncomment:
+  <img class="portrait" src="{{ '/assets/img/akhil.jpg' | relative_url }}" alt="Akhil S. Pillai" width="160">
+  -->
+
+  <p class="lede">
+    I work on direct numerical simulation of turbulent air&ndash;water flow past a
+    circular cylinder at Re&nbsp;=&nbsp;100&ndash;300, using an in-house compressible
+    six-equation two-fluid solver written in Fortran. The runs use meshes of
+    8&ndash;30&nbsp;million cells, distributed across GPUs on PARAM&nbsp;Shakti with one
+    GPU per MPI rank. At the moment I am validating shedding frequencies against
+    published Strouhal-number data and studying how the gas&ndash;liquid interface
+    behaves in the wake.
+  </p>
+
+  <ul class="hero-links">
+    <li><a href="mailto:{{ site.links.email }}">Email</a></li>
+    <li><a href="{{ site.links.linkedin }}">LinkedIn</a></li>
+    {% if site.links.github != "" %}<li><a href="{{ site.links.github }}">GitHub</a></li>{% endif %}
+    {% if site.links.scholar != "" %}<li><a href="{{ site.links.scholar }}">Scholar</a></li>{% endif %}
+    <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
+  </ul>
+
+  {% include vortex.html %}
+</section>
+
+<section aria-labelledby="news-h">
+  <p class="eyebrow" id="news-h">News</p>
+  <ul class="news">
+    {% for item in site.data.news limit: 6 %}
+    <li>
+      <span class="when">{{ item.date }}</span>
+      <p>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section aria-labelledby="research-h">
+  <p class="eyebrow" id="research-h">Selected research</p>
+  <ul class="news">
+    <li>
+      <span class="when">2025&ndash;</span>
+      <p><a href="{{ '/research/#dns-cylinder' | relative_url }}">DNS of turbulent air&ndash;water flow past a circular cylinder</a> &mdash; six-equation two-fluid model, 8&ndash;30M cells, MPI across GPUs.</p>
+    </li>
+    <li>
+      <span class="when">2024&ndash;25</span>
+      <p><a href="{{ '/research/#thesis-solver' | relative_url }}">A compressible multifluid solver for gas&ndash;liquid flow past a bluff body</a> &mdash; B.Tech thesis, carried out at IIT Madras.</p>
+    </li>
+    <li>
+      <span class="when">2024</span>
+      <p><a href="{{ '/research/#ml-aero' | relative_url }}">Machine-learning surrogates for aerodynamic prediction</a> &mdash; CNNs trained on XFoil data to predict lift and drag from airfoil geometry.</p>
+    </li>
+  </ul>
+  <p class="more-link"><a href="{{ '/research/' | relative_url }}">All research &rarr;</a></p>
+</section>

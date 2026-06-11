@@ -1,0 +1,60 @@
+# ── Site identity ─────────────────────────────────────────────
+title: Akhil S. Pillai
+description: >-
+  Computational fluid dynamicist working on direct numerical simulation
+  of turbulent multiphase flows — in-house Fortran solvers, MPI, and GPU
+  computing on national HPC systems.
+
+# After deploying, set url to your live address, e.g. https://YOURUSERNAME.github.io
+url: "https://codesbyakhil.github.io"
+# Leave baseurl empty for a user site (USERNAME.github.io).
+# If you ever deploy as a *project* site (USERNAME.github.io/repo), set baseurl: /repo
+baseurl: ""
+
+author:
+  name: Akhil S. Pillai
+  email: akhilspillaihs@gmail.com
+
+# ── Social links (used in hero + footer; edit freely) ─────────
+links:
+  email: akhilspillaihs@gmail.com
+  linkedin: https://www.linkedin.com/in/akhil-spillai-2a4027229
+  github: "https://github.com/codesbyakhil"
+  youtube: https://www.youtube.com/@akhilspillai23
+  scholar: ""       # TODO: add Google Scholar profile URL once it exists
+
+# ── Build settings ─────────────────────────────────────────────
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  math_engine: mathjax   # emits \( \) and \[ \]; rendered client-side by MathJax v3
+
+permalink: /blog/:year/:title/
+
+plugins:               # all three are on the GitHub Pages whitelist
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      math: true        # MathJax loads on every blog post by default
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .jekyll-cache

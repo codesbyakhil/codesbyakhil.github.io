@@ -1,0 +1,21 @@
+# ─────────────────────────────────────────────────────────────
+# News feed — newest entry FIRST. The homepage shows the top 6.
+# To add an entry, copy a block and edit. `text` supports
+# *italics* and [links](https://...) via Markdown.
+#
+# Template for when the PhD begins (move to the top & uncomment):
+# - date: "Jul 2026"
+#   text: "Joined the Department of Aerospace Engineering at IIT Bombay as a PhD student."
+# ─────────────────────────────────────────────────────────────
+
+- date: "Jul 2025"
+  text: "Joined Prof. A. Sameen's group at IIT Madras as a Project Associate, continuing DNS of turbulent air–water flow past a cylinder on PARAM Shakti."
+
+- date: "Apr 2025"
+  text: "Completed my B.Tech thesis, *Numerical simulation of flow over a bluff body using a compressible multifluid six-equation formulation*, carried out at IIT Madras."
+
+- date: "May 2024"
+  text: "Selected for the IIT Madras Summer Fellowship — built CNN and PINN models in PyTorch to predict aerodynamic coefficients from airfoil geometry."
+
+- date: "Jun 2023"
+  text: "Internship at Hindustan Aeronautics Limited, Bengaluru, with exposure to the LCA Tejas production line."
