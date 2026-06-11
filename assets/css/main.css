@@ -159,6 +159,20 @@ section { margin-top: 3.4rem; }
 
 /* ---------- hero (home) ---------- */
 .hero { padding-top: 3.6rem; }
+.hero-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+.hero-text { flex: 1; min-width: 0; }
+.portrait {
+  flex: none;
+  width: clamp(132px, 23%, 172px);
+  height: auto;
+  border: 1px solid var(--hairline);
+  border-radius: 3px;
+  margin-top: 0.35rem;
+}
 .hero .affiliation {
   font-style: italic;
   font-size: 1.05rem;
@@ -398,6 +412,8 @@ pre code { background: none; border: none; padding: 0; font-size: inherit; }
 @media (max-width: 640px) {
   body { font-size: 1.02rem; }
   .page-head, .hero { padding-top: 2.4rem; }
+  .hero-top { flex-direction: column-reverse; gap: 1.3rem; }
+  .portrait { width: 124px; margin-top: 0; }
   .news li, .role { grid-template-columns: 1fr; gap: 0.15rem; }
   .news time, .role .when { padding-top: 0; }
   .hero-links { gap: 0.5rem 1.1rem; }
