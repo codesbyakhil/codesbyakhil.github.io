@@ -3,16 +3,13 @@ layout: default
 title: Home
 ---
 <section class="hero">
-  <div class="hero-top">
-    <div class="hero-text">
-      <p class="eyebrow">DNS &middot; Multiphase flows &middot; HPC &amp; GPU computing</p>
-      <h1>Akhil S. Pillai</h1>
-      <p class="affiliation">Project Associate, Department of Aerospace Engineering, Indian Institute of Technology Madras &mdash; working with Prof.&nbsp;A.&nbsp;Sameen.</p>
-    </div>
-    <img class="portrait" src="{{ '/assets/img/akhil.jpg' | relative_url }}" alt="Portrait of Akhil S. Pillai" width="640" height="640">
-  </div>
+  <p class="eyebrow">DNS &middot; Multiphase flows &middot; HPC &amp; GPU computing</p>
+  <h1>Akhil S. Pillai</h1>
+  <p class="affiliation">Project Associate, Department of Aerospace Engineering, Indian Institute of Technology Madras &mdash; working with Prof.&nbsp;A.&nbsp;Sameen.</p>
 
-  <p class="lede">
+  <div class="hero-intro">
+    <img class="portrait" src="{{ '/assets/img/akhil.jpg' | relative_url }}" alt="Portrait of Akhil S. Pillai" width="640" height="640">
+    <p class="lede">
     I work on direct numerical simulation of turbulent air&ndash;water flow past a
     circular cylinder at Re&nbsp;=&nbsp;100&ndash;300, using an in-house compressible
     six-equation two-fluid solver written in Fortran. The runs use meshes of
@@ -21,6 +18,7 @@ title: Home
     published Strouhal-number data and studying how the gas&ndash;liquid interface
     behaves in the wake.
   </p>
+  </div>
 
   <ul class="hero-links">
     <li><a href="mailto:{{ site.links.email }}">Email</a></li>
