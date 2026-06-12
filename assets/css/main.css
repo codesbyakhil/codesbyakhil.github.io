@@ -343,6 +343,9 @@ section { margin-top: 3.4rem; }
 .post-body th { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); }
 mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; padding: 2px 0; }
 .post-back { margin-top: 2.6rem; font-family: var(--mono); font-size: 0.78rem; }
+.post-body sup { font-size: 0.68em; line-height: 0; color: var(--cobalt); }
+.refs { font-size: 0.88rem; color: var(--ink-soft); padding-left: 1.25rem; }
+.refs li { margin: 0.4rem 0; line-height: 1.55; }
 
 /* ---------- code ---------- */
 code, pre { font-family: var(--mono); }
