@@ -1,5 +1,6 @@
 ---
 title: "The Hacker Who Almost Stole the Internet: The Inside Story of the XZ Backdoor"
+date: 2026-02-27
 subtitle: "How a multi-year social-engineering campaign nearly backdoored SSH on the world's Linux systems — and the performance anomaly that stopped it."
 tags: [security, open-source]
 math: false
