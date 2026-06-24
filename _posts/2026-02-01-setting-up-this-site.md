@@ -1,5 +1,6 @@
 ---
 title: "Setting up this site"
+date: 2026-02-01
 subtitle: "A public lab notebook — and a quick test that equations and Fortran render properly."
 tags: [meta]
 ---
