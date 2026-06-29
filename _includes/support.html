@@ -1,0 +1,9 @@
+{% if site.support.enabled and site.support.sponsors != "" or site.support.upi_link != "" or site.support.upi_id != "" %}
+<aside class="support" aria-label="Support this writing">
+  <p class="support-note">If this was useful, you can help keep the writing going. These posts are written in my own time, in the spirit of the open-source work I write about &mdash; entirely optional, and thank you.</p>
+  <p class="support-actions">
+    {% if site.support.sponsors != "" %}<a class="support-btn" href="https://github.com/sponsors/{{ site.support.sponsors }}" rel="noopener">Sponsor on GitHub</a>{% endif %}
+    {% if site.support.upi_link != "" %}<a class="support-btn alt" href="{{ site.support.upi_link }}" rel="noopener">Support via UPI / cards</a>{% elsif site.support.upi_id != "" %}<a class="support-btn alt" href="upi://pay?pa={{ site.support.upi_id }}&pn=Akhil%20S.%20Pillai&cu=INR">Pay via UPI</a><span class="support-upi mono">{{ site.support.upi_id }}</span>{% endif %}
+  </p>
+</aside>
+{% endif %}

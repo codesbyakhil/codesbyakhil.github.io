@@ -23,6 +23,13 @@ links:
   youtube: https://www.youtube.com/@akhilspillai23
   scholar: ""       # TODO: add Google Scholar profile URL once it exists
 
+# ── Support / donations (shown below posts and on the blog index) ──
+support:
+  enabled: true
+  sponsors: codesbyakhil          # GitHub Sponsors username; set "" to hide that button
+  upi_link: ""                    # paste a hosted payment-page URL (e.g. Razorpay) for a UPI/cards button; "" hides it
+  upi_id: ""                      # OR a raw UPI ID (less preferred — public VPAs attract spam); used only if upi_link is empty
+
 # ── Build settings ─────────────────────────────────────────────
 markdown: kramdown
 highlighter: rouge
