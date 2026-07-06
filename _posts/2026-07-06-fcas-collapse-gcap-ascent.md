@@ -1,0 +1,74 @@
+---
+layout: post
+title: "Two Ways to Build a Fighter: Why FCAS Collapsed and GCAP Didn't"
+date: 2026-07-06
+math: false
+---
+
+*Within four weeks in mid-2026, Europe's two sixth-generation fighter programmes reached opposite fates. One was cancelled outright; the other signed a £4.6 billion contract. The difference had less to do with the aircraft than with how the partners agreed to work together.*
+
+On 8 June 2026, at the opening of the ILA Berlin Air Show, German Chancellor Friedrich Merz confirmed what the defence press had expected for two years: France and Germany were abandoning joint development of the New Generation Fighter, the crewed aircraft at the centre of the Future Combat Air System (FCAS). Emmanuel Macron did not contest it. Less than a month later, on 3 July, the United Kingdom, Italy and Japan awarded a £4.6 billion ($6.1 billion) contract to push their rival effort, the Global Combat Air Programme (GCAP), into full design and development.
+
+Two multinational programmes, the same goal, opposite outcomes, weeks apart. It is tempting to read this as a story about engineering, but it isn't. Neither aircraft exists yet. What separated the two was governance: who leads, who owns the intellectual property, and whether the partners' military requirements were ever compatible. That is the part worth unpacking, because the lesson generalises well beyond fighter jets.
+
+## What actually collapsed, and what didn't
+
+The headlines overstated this in both directions, so precision helps. France and Germany cancelled the NGF, the crewed fighter. They did not cancel the entire FCAS concept. The two governments agreed to keep jointly developing the other pillars of the "system of systems": the Air Combat Cloud, the networking layer linking aircraft, drones and sensors, now led by Airbus and Thales; and the Remote Carriers, the accompanying drones, led by Airbus in Germany, with Spain's Indra retaining its sensors role. The division of remaining work was set to be finalised at a Franco-German ministerial council in mid-July. Several outlets called the surviving cooperation a face-saving arrangement, which is roughly fair.
+
+The money also needs care. FCAS is routinely called a "€100 billion programme," and that figure is easy to misread. It is an estimate of the total lifetime cost the programme might eventually have reached, put recently in the €80–100 billion range. It is not what was spent. The sum actually committed before cancellation, on early research and demonstrator phases, was far smaller, on the order of a few billion euros. The collapse wasted years and political capital more than it wasted a hundred billion euros.
+
+## Why it broke: doctrine, then industry
+
+Two fault lines ran through FCAS from the start, and neither was ever resolved.
+
+The first was doctrinal. France needed the aircraft to do things Germany did not. France's future fighter has to eventually carry the airborne leg of its independent nuclear deterrent and operate from an aircraft carrier, because that is what the French armed forces require. Germany operates no carriers and has no independent nuclear force; its NATO nuclear-sharing role is met by American B61 bombs, for which it has ordered the F-35A. So Berlin wanted a land-based multirole fighter for European air defence and had little reason to pay for carrier compatibility or sovereign nuclear certification. When Airbus chief executive Guillaume Faury floated building two variants to satisfy both sides, early in 2026, it widened the rift rather than closing it: two variants meant duplicated cost and diluted design authority, which France would not accept.
+
+The second fault line was industrial, and it is the one that actually ended the programme. Dassault, prime contractor for the fighter, wanted clear design leadership, arguing that its record building the Mirage and Rafale entitled it to lead the aircraft "from A to Z." Airbus, representing German and Spanish industry, refused to be a subcontractor and insisted on genuine parity, including shared ownership of the intellectual property that German taxpayers were funding. This was not a squabble over percentages. It was a clash between two incompatible models: a single "best athlete" holding authority, versus co-leadership with shared IP. Phase 1B ended in April 2026 with no agreement on Phase 2, the threshold German officials had repeatedly named as the test of viability. Mediation failed. In June, Berlin concluded that more pressure on the companies would achieve nothing, and pulled the plug. German Defence Minister Boris Pistorius described the effort as an ambitious European project "collapsing in the face of reality."
+
+## What Europe did next
+
+The collapse did not end European sixth-generation ambition; it split it.
+
+Within three days, on 11 June, Airbus and seven other German firms signed a positioning paper launching "Team Gen 6," a bid for a German-led national fighter, and handed it to the German government with a demand for contracts in the second half of 2026. A parallel group of Spanish firms, led by Indra and Airbus's Spanish arm, lined up alongside. The Franco-German axis has, at least for now, been replaced by a German-Spanish one, with Airbus still central and France excluded.
+
+France, isolated from its former partners, is widely expected to go it alone. Dassault's Éric Trappier told the French Senate the company is ready to proceed independently, invoking the Rafale, which France built alone after leaving the Eurofighter consortium in the 1980s. The likely near-term French path is an evolution of the Rafale, the F5 standard, paired with stealthy combat drones descended from the nEUROn programme, and eventually the ASN4G nuclear missile. Analysts caution that, without German and Spanish cost-sharing, a fully sovereign French sixth-generation fighter may have to scale back its ambitions. Trappier has left the door open to partners, including, pointedly, non-European ones, provided the governance rules are fixed at the outset.
+
+Spain is the party left worst off. It joined FCAS in 2019 as an equal partner to lift its industrial base; it now faces the loss of that status with no clear replacement for its ageing F-18s and early Eurofighters. Buying the F-35 is politically difficult in Madrid, given strained relations with Washington and unease about dependence on a closed American system. The most probable outcome is that Spain folds its firms into the German-led effort as a junior partner, a marked step down from the equal footing it once had.
+
+The one element of FCAS that accelerated rather than fractured was the drones. At ILA Berlin, Airbus unveiled the U760 Ravenstorm, a stealthy uncrewed combat aircraft roughly 13 metres long and six tonnes, built to fly alongside crewed Eurofighters and carry both air-to-air and air-to-ground weapons, targeted for the early 2030s. As an interim step it is fielding the U740 Valkyrie, a Europeanised version of the American Kratos XQ-58A aimed at German service around 2029, though that one carries US export restrictions the sovereign Ravenstorm avoids. The defence-software firm Helsing showed an electronic-attack drone, the CA-1EA, intended to jam air defences ahead of crewed formations. The pattern is unmistakable: the crewed fighter is stuck in political limbo, but the uncrewed "loyal wingman" layer is moving fast, and largely independently of the FCAS wreckage.
+
+## Why GCAP is advancing
+
+While FCAS fragmented, GCAP did the opposite. Formed in 2022 by merging Britain's Tempest project with Japan's F-X, it is a partnership of the UK, Italy and Japan aiming to field a large, twin-engine, long-range stealth fighter by 2035, replacing the Typhoon and Japan's F-2.
+
+On 3 July 2026 the trilateral GCAP Agency awarded an 18-month, £4.6 billion contract to Edgewing, the industrial joint venture owned equally by Britain's BAE Systems, Italy's Leonardo and Japan Aircraft Industrial Enhancement Co. It funds the design and assessment phase and a demonstrator aircraft expected to fly before the end of 2027, and it follows an initial £686 million contract from April. The engine is being developed by a separate consortium led by Rolls-Royce and Japan's IHI, with Italy's Avio Aero. (One correction to some write-ups: a fighter powerplant of this kind is a low-bypass turbofan, not a "high-bypass" engine. High-bypass designs are for airliners and transports, where fuel efficiency matters more than the thrust-to-weight and supersonic performance a fighter needs.)
+
+The reason GCAP is where FCAS wanted to be comes down to structure. GCAP set up Edgewing as a single engineering prime, working on behalf of all three national industries, answering to a single empowered customer, the GCAP Agency, itself overseen by a trilateral government organisation headquartered in Reading. That is precisely the arrangement FCAS never reached. Edgewing's chief executive, Marco Zoff, described the model as three countries creating a single prime with a single customer, and framed that, correctly, as the genuinely new thing. It is not that GCAP's partners lack competing interests; it is that they settled the governance question up front rather than deferring it, and their military requirements were compatible to begin with. None of the three demanded carrier compatibility or sovereign nuclear delivery that the others would have had to fund.
+
+## The money, and the politics behind it
+
+GCAP's momentum is real, but it rests on funding that is politically contested, and the honest picture here is messier than the triumphant one.
+
+The £4.6 billion contract was only possible once Britain confirmed its share. That came in the UK Defence Investment Plan (DIP), published on 30 June 2026 after months of delay, which committed £8.6 billion to GCAP over four years, more than the roughly £6 billion the partners had expected. That much is confirmed.
+
+The surrounding politics are turbulent, and some accounts overstate them. Verified: Defence Secretary John Healey resigned days before the plan appeared, telling the Prime Minister that the funding fell well short of what the threat environment demanded. General Sir Richard Barrons, who co-led the 2025 Strategic Defence Review the plan was meant to implement, said the government was "actively going backwards." Prime Minister Keir Starmer is under genuine pressure, including calls from within his own party to step down.
+
+Not settled, and something at least one circulating analysis presents as fact: a "transition" to Andy Burnham as Prime Minister. As of early July 2026, that has not happened. Burnham, the Mayor of Greater Manchester, is widely expected to challenge Starmer for the Labour leadership, but that challenge is contingent on his first winning a by-election to return to Parliament, and then on a contest whose outcome nobody can predict. Treating a possible leadership challenge as a completed handover is exactly the sort of claim to flag rather than repeat. The defensible statement is narrow: the DIP was contentious, it cost a Defence Secretary his job, and part of the uplift it promised is not yet fully funded. Whether it survives a change of Labour leadership is genuinely unknown.
+
+## Who can actually buy one, and what we don't know
+
+With FCAS gone, GCAP is, for now, the only Western sixth-generation fighter openly positioned for export. The two American programmes, the Air Force's NGAD (awarded to Boeing in 2025 as the F-47) and the Navy's F/A-XX, are highly classified and not on offer to allies; China's tailless demonstrators, first seen flying in late 2024, are not for sale either. That leaves GCAP as the default for a country wanting a next-generation fighter without buying American.
+
+Interest is real but should not be inflated. Canada's defence minister discussed GCAP with his Japanese counterpart in June, and Saudi Arabia has long been linked to the programme; Reuters reports both have "looked at" it. Any expansion, though, needs unanimous agreement from the three founders, and none of these are commitments. Germany has also been floated as a possible late entrant, which would be awkward, given it was leading the rival programme a few weeks earlier.
+
+It helps to state plainly what is solid and what is not. Solid: FCAS's crewed fighter was cancelled in June; the surviving cloud-and-drone cooperation continues; Team Gen 6 and the German-Spanish realignment are real; GCAP signed a £4.6 billion contract in July with committed UK funding; Edgewing, its single-prime structure, and the 2035 target are confirmed. Less solid, and treated here as estimates or open questions: the precise cost of either programme, exact in-service dates, which export customers actually join GCAP, the shape of France's eventual sovereign fighter, and the future of UK defence funding under a possible change of government. Anyone claiming certainty on those is guessing.
+
+## The lesson, and the caveat
+
+The summer of 2026 will be remembered as the moment Europe's sixth-generation fighter effort split into a winner and a loser, and at the level of momentum that reading is fair: GCAP has a contract and a structure, FCAS has a wake. But the more useful lesson is narrower and less triumphant. The programmes did not diverge because one set of engineers was better. They diverged because GCAP's partners settled the hard questions of leadership, ownership and requirements before starting, while FCAS's partners deferred them until they hardened into deadlock. Multinational programmes fail in the boardroom far more often than in the wind tunnel.
+
+And here is the caveat that cheerleaders on both sides tend to skip: nobody has flown a sixth-generation fighter anywhere in the world yet. GCAP is a funded design with a demonstrator still more than a year away; Team Gen 6 is a positioning paper; France's fighter is a statement of intent to a Senate committee. These are contracts, consortia and concepts, not aircraft. The real test of who got 2026 right will come in the 2030s, when the metal, or the absence of it, finally flies.
+
+---
+
+*Sources: Reuters, FlightGlobal, Defense News, and the GCAP Agency / UK Government for the 3 July GCAP contract and the UK Defence Investment Plan; Euronews, The Conversation, GlobalSecurity, and Wikipedia for the June FCAS cancellation and its continuing "system of systems" work; The Aviationist, AeroTime, and Airforce Technology for Team Gen 6 and the ILA Berlin drone unveilings; PBS/AP for the resignation of Defence Secretary John Healey and the UK leadership situation. Cost figures, in-service dates, and export prospects for both programmes are estimates or open questions and are flagged as such. The claim, seen in some analyses, that Andy Burnham has become or is about to become UK Prime Minister is not established and is not asserted here.*
