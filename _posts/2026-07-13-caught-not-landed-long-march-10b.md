@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Caught, Not Landed: Why China's Booster Recovery Isn't a SpaceX Copy"
-date: 2026-07-18
+date: 2026-07-13
 math: false
 ---
 
