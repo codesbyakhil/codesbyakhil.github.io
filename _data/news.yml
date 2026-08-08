@@ -2,11 +2,10 @@
 # News feed — newest entry FIRST. The homepage shows the top 6.
 # To add an entry, copy a block and edit. `text` supports
 # *italics* and [links](https://...) via Markdown.
-#
-# Template for when the PhD begins (move to the top & uncomment):
-# - date: "Jul 2026"
-#   text: "Joined the Department of Aerospace Engineering at IIT Bombay as a PhD student."
 # ─────────────────────────────────────────────────────────────
+
+- date: "Jul 2026"
+  text: "Joined the Department of Aerospace Engineering at IIT Bombay as a PhD scholar, working on shock wave interaction with structures and materials."
 
 - date: "Jul 2025"
   text: "Joined Prof. A. Sameen's group at IIT Madras as a Project Associate, continuing DNS of turbulent air–water flow past a cylinder on PARAM Shakti."

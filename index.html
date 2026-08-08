@@ -3,21 +3,22 @@ layout: default
 title: Home
 ---
 <section class="hero">
-  <p class="eyebrow">DNS &middot; Multiphase flows &middot; HPC &amp; GPU computing</p>
+  <p class="eyebrow">Shock dynamics &middot; Compressible flows &middot; HPC &amp; GPU computing</p>
   <h1>Akhil S. Pillai</h1>
-  <p class="affiliation">Project Associate, Department of Aerospace Engineering, Indian Institute of Technology Madras &mdash; working with Prof.&nbsp;A.&nbsp;Sameen.</p>
+  <p class="affiliation">PhD Scholar, Department of Aerospace Engineering, Indian Institute of Technology Bombay.</p>
 
   <div class="hero-intro">
     <img class="portrait" src="{{ '/assets/img/akhil.jpg' | relative_url }}" alt="Portrait of Akhil S. Pillai" width="640" height="640">
     <p class="lede">
-    I work on direct numerical simulation of turbulent air&ndash;water flow past a
-    circular cylinder at Re&nbsp;=&nbsp;100&ndash;300, using an in-house compressible
-    six-equation two-fluid solver written in Fortran. The runs use meshes of
-    8&ndash;30&nbsp;million cells, distributed across GPUs on PARAM&nbsp;Shakti with one
-    GPU per MPI rank. At the moment I am validating shedding frequencies against
-    published Strouhal-number data and studying how the gas&ndash;liquid interface
-    behaves in the wake.
-  </p>
+      I work on what happens when a shock wave meets something that can bend,
+      break, or absorb it &mdash; how the wave loads a structure, and how the
+      structure answers back into the flow. Before Bombay I was a Project
+      Associate at IIT Madras, running direct numerical simulations of
+      three-dimensional air&ndash;water flow past a circular cylinder with an
+      in-house Fortran&nbsp;90 solver: HLLC fluxes, MPI domain decomposition,
+      OpenACC offload with one GPU per rank, and meshes of 8&ndash;30&nbsp;million
+      cells on PARAM&nbsp;Shakti and A100 nodes.
+    </p>
   </div>
 
   <ul class="hero-links">
@@ -47,8 +48,12 @@ title: Home
   <p class="eyebrow" id="research-h">Selected research</p>
   <ul class="news">
     <li>
-      <span class="when">2025&ndash;</span>
-      <p><a href="{{ '/research/#dns-cylinder' | relative_url }}">DNS of turbulent air&ndash;water flow past a circular cylinder</a> &mdash; six-equation two-fluid model, 8&ndash;30M cells, MPI across GPUs.</p>
+      <span class="when">2026&ndash;</span>
+      <p><a href="{{ '/research/#phd-shock' | relative_url }}">Shock wave interaction with structures and materials</a> &mdash; doctoral research at IIT Bombay.</p>
+    </li>
+    <li>
+      <span class="when">2025&ndash;26</span>
+      <p><a href="{{ '/research/#dns-cylinder' | relative_url }}">DNS of compressible gas&ndash;droplet flow past a circular cylinder</a> &mdash; six-equation two-fluid model, ~11&times; GPU speedup, meshes to 28M cells.</p>
     </li>
     <li>
       <span class="when">2024&ndash;25</span>

@@ -1,7 +1,7 @@
 ---
 title: Publications
 eyebrow: Publications
-subtitle: Journal and conference entries will appear here as the work matures.
+subtitle: Journal and conference entries will appear here as the doctoral work matures.
 permalink: /publications/
 ---
 

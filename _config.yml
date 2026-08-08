@@ -1,9 +1,9 @@
 # ── Site identity ─────────────────────────────────────────────
 title: Akhil S. Pillai
 description: >-
-  Computational fluid dynamicist working on direct numerical simulation
-  of turbulent multiphase flows — in-house Fortran solvers, MPI, and GPU
-  computing on national HPC systems.
+  Doctoral researcher in aerospace engineering at IIT Bombay, working on
+  shock wave interaction with structures and materials — high-fidelity
+  simulation, in-house Fortran solvers, and MPI + OpenACC on national HPC systems.
 
 # After deploying, set url to your live address, e.g. https://YOURUSERNAME.github.io
 url: "https://codesbyakhil.github.io"
